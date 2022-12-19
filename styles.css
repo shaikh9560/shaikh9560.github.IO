@@ -215,21 +215,33 @@ header .navbar ul li a:hover {
 .about .row .counter .box h3 {
   font-size: 2rem;
   color: #fff;
+
+
+  
 }
+#about img{
+  width: 200px;
+  border-radius: 48%;
+  margin-left: 400px;
+  border: 4px solid gray;
+}
+
 .education .box-container{
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 1rem 0;
-  padding-left: 3rem;
+  padding-left: 1rem;
 }
 .education .box-container .box{
   width: 27rem;
+  height: 200px;
   margin: 4rem 1rem;
   padding-left: 4rem;
   border-left: .2rem solid #fff;
   position: relative;
+  
 }
 
 .education .box-container .box span{
@@ -270,6 +282,7 @@ header .navbar ul li a:hover {
   border-bottom: 0.1rem solid #fff4;
   color: #fff;
  margin-top: 20px;
+
 }
 .heading-pro span {
   color: #222222;
@@ -281,11 +294,12 @@ header .navbar ul li a:hover {
   justify-content: center;
   flex-wrap: wrap;
   padding: 2rem 0;
-  /* border: 2px solid red; */
+
   margin-top: 30px;
+
 }
 .project .box-container .box{
-  display: flex;
+ 
   flex-direction: column;
   justify-content: space-between;
   width: 40rem;
@@ -299,6 +313,7 @@ header .navbar ul li a:hover {
   margin-top: -10px;
   background-color: #90a4ae;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
  
 
 }
@@ -310,7 +325,7 @@ header .navbar ul li a:hover {
 .project .box-container .box .but{
    display: flex;
    width: 100%;
-   margin-bottom: 20px;
+   margin-bottom: 0px;
   justify-content:space-around; 
   /* border: 2px solid red; */
 }
