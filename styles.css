@@ -582,6 +582,7 @@ rect.ContributionCalendar-day[data-level='4'] {
     
 }
 .statistics{
+  display: flex;
   width: 100%;
   height: 370px;
   margin-top: 30px;
@@ -591,16 +592,17 @@ rect.ContributionCalendar-day[data-level='4'] {
 .statistics .img1{
   display: flex;
   /* border: 2px solid red; */
-  height: 147px;
+  height: 140px;
   gap: 30px;
   margin-top: 30px;
+  
 }
 
 .statistics .img2 img{
   /* border: 2px solid blue; */
-  margin-top: 20px;
-  height: 150px;
-  margin-left: 30%;
+  margin-top: 30px;
+  height: 140px;
+  margin-left: 6%;
 }
 .heading-stat {
   text-align: center;
